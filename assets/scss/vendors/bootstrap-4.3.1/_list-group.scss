@@ -1,7 +1,3 @@
-// Base class
-//
-// Easily usable on <ul>, <ol>, or <div>.
-
 .list-group {
   display: flex;
   flex-direction: column;
@@ -10,12 +6,6 @@
   padding-left: 0; // reset padding because ul and ol
   margin-bottom: 0;
 }
-
-
-// Interactive list items
-//
-// Use anchor or button elements instead of `li`s or `div`s to create interactive
-// list items. Includes an extra `.active` modifier class for selected items.
 
 .list-group-item-action {
   width: 100%; // For `<button>`s (anchors become 100% by default though)
@@ -138,11 +128,6 @@
   }
 }
 
-
-// Contextual variants
-//
-// Add modifier classes to change text and background color on individual items.
-// Organizationally, this must come after the `:hover` states.
 
 @each $color, $value in $theme-colors {
   @include list-group-item-variant($color, theme-color-level($color, -9), theme-color-level($color, 6));
