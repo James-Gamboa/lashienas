@@ -2,9 +2,9 @@ English Project
 
 Members:
 
-*James Guevara Gamboa
+James Guevara Gamboa
 
-*Andrey Barth Jara
+Andrey Barth Jara
 
 Github Pages:
 
