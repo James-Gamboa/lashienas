@@ -11436,7 +11436,8 @@ a:hover {
 }
 
 .footer .infos {
-  text-align: right;
+  text-align: center;
+  margin: 0 auto;
   color: #fff;
   opacity: 1;
   width: 50%;
@@ -11500,7 +11501,7 @@ a:hover {
   min-height: 600px;
   text-align: center;
   color: #fff;
-  background-image: url(../imgs/header.jpg);
+  background-image: url(../imgs/ellen-white-K3Tvp4DSwog-unsplash.jpg);
   background-size: cover;
   background-position: center;
   -webkit-transition: .2s;
@@ -11632,7 +11633,7 @@ body {
   position: relative;
   text-align: center;
   color: #fff;
-  background-image: url(../imgs/footer.jpg);
+  background-image: url(../imgs/jean-wimmerlin-1suqHs1meTs-unsplash.jpg);
   background-size: cover;
   background-position: bottom;
 }
@@ -11691,7 +11692,7 @@ body.light-theme .theme-selector .spinner i {
 }
 
 body.light-theme .header {
-  background-image: url(../imgs/header-light.jpg);
+  background-image: url(../imgs/ellen-white-K3Tvp4DSwog-unsplash.jpg);
 }
 
 body.light-theme .header .overlay {
